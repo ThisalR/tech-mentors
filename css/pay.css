@@ -1,0 +1,122 @@
+body{
+    background: linear-gradient(#b3e6cc,#c6ecd9,#d9f2e6,#ecf9f2,#d9f2e6,#c6ecd9,#b3e6cc,#c6ecd9,
+    #d9f2e6,#ecf9f2,#d9f2e6,#c6ecd9,#b3e6cc,#c6ecd9,#d9f2e6,#ecf9f2,#d9f2e6,#c6ecd9,#b3e6cc,
+    #c6ecd9,#d9f2e6,#ecf9f2,#d9f2e6,#c6ecd9);
+}
+* {margin: 0; padding: 0;}
+
+a { text-decoration: none;}
+
+header{
+    background-color:  #404040;
+    height: 80px;
+    width: 100%;
+}
+header .logo{
+    float: left;
+    margin-left: 20px;
+}
+header .logo i{
+    color: rgb(221, 224, 40);
+    float: left;
+}
+header .logo h2{
+    margin: 20px 0 0px 10px;
+    color:white;
+}
+header .detail{
+    display: inline-block;
+    margin-left: 100px;
+}
+header .detail ul{
+    margin: 18px;
+    list-style: none;
+}
+header .detail ul li{
+    padding: 0px 15px;
+    display: inline-block;
+    font-size: 18px;
+}
+header .detail ul li a{
+    color: white;
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+    font-family: Georgia;
+}
+
+header .detail ul li a:hover{
+    font-weight: bold;
+    color:  #ffffcc;
+}
+header .search-box{
+    float: right;
+    margin: 25px 25px;
+}
+header .search-box input{
+    border-radius: 10px;
+    padding: 2px;
+}
+.topic{
+    text-align: center;
+    margin-top: 30px;
+    font-family: Calibri;
+    padding-bottom: 5px;
+}
+.log {
+    margin: 30px 40px 30px 450px;
+    font-family: Calibri;
+}
+
+.log input{
+    width: 50%;
+    height: 30px;
+    background-color: #e0e0eb;
+}
+.log input[type=submit]{
+    width: 90px;
+    margin-left: 170px;
+    background-color: #00cc44;
+    color: white;
+    font-size: 15px;
+}
+.log input[type=submit]:hover{
+    background-color: #0a7241;
+    cursor: pointer;
+}
+footer{
+    background-color:  #404040;
+    height: 250px;
+    width: 100%;
+    float: left;
+}
+footer .logo{
+    text-align: center;
+    margin-top: 20px;
+}
+footer .logo i{
+    color: rgb(221, 224, 40);
+}
+footer .logo h2{
+    color:white;
+}
+footer .socialmedia{
+    text-align: center;
+    margin-top: 30px;
+}
+footer .socialmedia a{
+    color: white;
+    margin-right: 15px;
+    
+}
+.copyright {
+    color: aliceblue;
+    border-top: 1px solid grey;
+    padding-top: 10px;
+    margin: 0 30px;
+}
+.copyright .left{
+    float: left;
+}
+.copyright .right{
+    float: right;
+}

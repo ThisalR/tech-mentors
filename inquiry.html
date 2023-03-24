@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Inquiry</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/inquiry.css">
+</head>
+
+<body>
+    <header>
+        <!--create header for every page-->
+        <div class="logo">
+            <a href="index.html"><i class="fa fa-graduation-cap fa-3x"></i>
+                <h2>TECH <br>MENTORS</h2>
+            </a>
+        </div>
+        <div class="detail">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="programs.html">Programs</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="affiliation.html">Affiliations</a></li>
+
+            </ul>
+        </div>
+        <div class="search-box">
+            <form action="index.html" method="get">
+                <input type="search" name="seacrh" placeholder="search here...">
+                <input type="submit" name="go" value="Go">
+            </form>
+        </div>
+    </header>
+    <div class="inquiry-cover">
+        <img src="images/inquiry.jpg" alt="cover">
+        <h1>Inquiries</h1>
+    </div>
+    <form class="inquiry">
+        <label for="name">Name :</label><br>
+        <input type="text" name="name"><br><br>
+        <label for="mobile">Mobile Number :</label><br>
+        <input type="tel" name="mobile"><br><br>
+        <label for="email">Email :</label><br>
+        <input type="email" name="email"><br><br>
+        <label for="city">City :</label><br>
+        <input type="text" name="city"><br><br>
+        <label for="country">Country :</label><br>
+        <input type="text" name="country"><br><br>
+        <label for="dob">Date of Birth :</label><br>
+        <input type="date" name="dob"><br><br>
+        <label for="gender">Gender : </label><br>
+        <input type="radio" name="gender option" value="male">&Tab; Male <br>
+        <input type="radio" name="gender option" value="female">&Tab; Female <br>
+        <input type="radio" name="gender option" value="undisclosed">&Tab; Undisclosed<br><br>
+        <label for="faculty">Program Name :</label><br>
+        <select name="program">
+            <option value="-1" selected>Select the program you are interested</option>
+            <option value="1">Diploma in Information Technology</option>
+            <option value="2">Diploma in English</option>
+            <option value="3">Diploma in Business Management</option>
+            <option value="4">Diploma in Tourism & Hospitality Management</option>
+            <option value="5">Diploma in Digital Marketing</option>
+            <option value="6">Diploma in Human Resource Management</option>
+            <option value="7">Diploma in Cyber Security</option>
+            <option value="8">Diploma in Software Engineering</option>
+            <option value="9">Diploma in Psychology</option>
+            <option value="10">Diploma in Biomedical Science</option>
+        </select>
+        <br><br>
+        <label for="qualifications">Educational Qualifications :</label><br>
+        <textarea name="qualification" cols="50" rows="10"></textarea><br><br>
+        <input type="submit" name="submit" value="Submit">
+    </form>
+    <!--create footer for every page-->
+    <footer>
+        <div class="logo">
+            <a href="index.html"><i class="fa fa-graduation-cap fa-3x"></i>
+                <h2>TECH <br>MENTORS</h2>
+            </a>
+        </div>
+        <div class="socialmedia">
+            <a href="#"><i class="fa fa-facebook fa-2x"></i></a>
+            <a href="#"><i class="fa fa-linkedin fa-2x"></i></a>
+            <a href="#"><i class="fa fa-twitter-square fa-2x"></i></a>
+            <a href="#"><i class="fa fa-instagram fa-2x"></i></a>
+            <a href="#"><i class="fa fa-youtube-square fa-2x"></i></a>
+        </div>
+        <br>
+        <div class="copyright">
+            <p class="left"> &copy; | All Rights Reserved.
+            </p>
+            <p class="right">Design by Thisal Rasindu</p>
+        </div>
+    </footer>
+</body>
+
+</html>
